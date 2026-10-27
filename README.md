@@ -6,6 +6,14 @@
 
 本仓库提供一个 **Agent Skill 指令包**，不包含图像模型、API 密钥或独立绘图程序。使用时需要提供照片，并在具备图像编辑能力的 AI 宿主中运行；仅安装本技能不会自动获得图像编辑能力。
 
+## 案例图 · Sunlit Cosmos
+
+![Sunlit Cosmos 钢笔淡彩旅行手账案例图](examples/pen-watercolor-travel-journal/01-sunlit-cosmos/result.jpg)
+
+用户提供的成品案例：橙黄色花朵、柔和的绿色背景、底部英文手写题字与四枚色卡。这里只展示提供的案例图，不包含对应的原始照片。
+
+[查看案例说明](examples/pen-watercolor-travel-journal/01-sunlit-cosmos/README.md) · [查看案例图片](examples/pen-watercolor-travel-journal/01-sunlit-cosmos/result.jpg)
+
 ## 视觉特点
 
 | 要素 | 绘制要求 |
@@ -91,6 +99,11 @@ picture-skill/
 ├── LICENSE
 ├── .gitignore
 ├── .gitattributes
+├── examples/
+│   └── pen-watercolor-travel-journal/
+│       └── 01-sunlit-cosmos/
+│           ├── README.md
+│           └── result.jpg
 └── skills/
     └── pen-watercolor-travel-journal-v1-0/
         └── SKILL.md

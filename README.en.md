@@ -6,6 +6,14 @@ Redraw a supplied photo as a gentle pen-and-light-watercolor travel journal illu
 
 This repository contains an **Agent Skill instruction package**. It does not include an image model, API keys, or a standalone drawing application. You must supply a photo and use an AI host with image-editing capabilities. Installing the skill alone does not provide those capabilities.
 
+## Example · Sunlit Cosmos
+
+![Sunlit Cosmos pen-and-watercolor travel journal example](examples/pen-watercolor-travel-journal/01-sunlit-cosmos/result.jpg)
+
+A finished example supplied by the user: orange and yellow flowers, a soft green background, handwritten English lettering, and four color swatches. Only the supplied example image is included; the corresponding source photo is not available in this repository.
+
+[Example notes](examples/pen-watercolor-travel-journal/01-sunlit-cosmos/README.md) · [View example image](examples/pen-watercolor-travel-journal/01-sunlit-cosmos/result.jpg)
+
 ## Visual style
 
 | Element | Drawing requirement |
@@ -91,6 +99,11 @@ picture-skill/
 ├── LICENSE
 ├── .gitignore
 ├── .gitattributes
+├── examples/
+│   └── pen-watercolor-travel-journal/
+│       └── 01-sunlit-cosmos/
+│           ├── README.md
+│           └── result.jpg
 └── skills/
     └── pen-watercolor-travel-journal-v1-0/
         └── SKILL.md
